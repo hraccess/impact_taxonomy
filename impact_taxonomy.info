@@ -14,6 +14,5 @@ features[field][] = taxonomy_term-access_constraints-field_long_label
 features[field][] = taxonomy_term-impact-field_access_event
 features[field][] = taxonomy_term-impact-field_unit
 features[taxonomy][] = access_constraint_type
-features[taxonomy][] = access_constraints
 features[taxonomy][] = impact
 features[taxonomy][] = units
