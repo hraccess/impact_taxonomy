@@ -14,10 +14,13 @@ function impact_taxonomy_field_default_fields() {
   $fields['taxonomy_term-access_constraint_type-field_access_constraint'] = array(
     'field_config' => array(
       'active' => '1',
-      'cardinality' => '-1',
+      'cardinality' => '1',
       'deleted' => '0',
       'entity_types' => array(),
       'field_name' => 'field_access_constraint',
+      'field_permissions' => array(
+        'type' => '0',
+      ),
       'foreign keys' => array(
         'tid' => array(
           'columns' => array(
